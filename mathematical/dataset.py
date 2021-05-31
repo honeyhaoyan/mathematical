@@ -45,7 +45,7 @@ class SRDataset(Dataset):
         #print(idx)
         file_name = self.files[idx]
         #print(file_name)
-        image = torchvision.io.read_image(join(self.path,file_name))
+        image = torchvision.io.read_image(file_name)
         #print(file_name)
         image = image.type(torch.FloatTensor)
         #print(image)

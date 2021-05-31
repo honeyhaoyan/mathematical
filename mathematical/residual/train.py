@@ -60,13 +60,14 @@ class Trainer(nn.Module):
                 #print('-----------------------')
                 loss_total = loss_total + loss
             loss_total = loss_total/i
-            train_loss.append(loss_total)
+            train_loss.append(loss_total.cpu().detach().numpy())
             print('[Epoch %d Training] Loss: %.3f' %
                         (epoch + 1, loss_total))
             if ((epoch+1)%100 == 0):
                 print("Saving model ...")
                 torch.save(self.model.state_dict(), str(epoch)+ '_'+str(self.learning_rate)+'.pth')
             if (epoch%10 == 0):
+                torch.cuda.empty_cache()
                 plt.cla()
                 plt.plot(train_loss)
                 plt.xlabel('epoch')
@@ -108,9 +109,9 @@ class Trainer(nn.Module):
                 mse_total = mse_total/i
                 psnr_total = psnr_total/i
                 l1_total = l1_total/i
-                mse_list.append(mse_total)
-                psnr_list.append(psnr_total)
-                l1_list.append(l1_total)
+                mse_list.append(mse_total.cpu().detach().numpy())
+                psnr_list.append(psnr_total.cpu().detach().numpy())
+                l1_list.append(l1_total.cpu().detach().numpy())
                 print('[Epoch %d Evaluation] L1 Loss: %.3f MSE Loss: %.3f PSNR Loss: %.3f' %
                             (epoch + 1, l1_total, mse_total, psnr_total))
                 if (epoch%10 == 0):

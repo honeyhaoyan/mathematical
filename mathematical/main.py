@@ -15,7 +15,7 @@ import sys
 
 def main(learning_rate):
     
-    train_dataset = SRDataset("/cluster/scratch/yanhao/mathematical/train")
+    train_dataset = SRDataset("data/train")
     train_dataloader = torch.utils.data.dataloader.DataLoader(
                             train_dataset,
                             batch_size=4,
@@ -24,7 +24,7 @@ def main(learning_rate):
                             drop_last=True,
                             pin_memory=True)
 
-    valid_dataset = SRDataset("/cluster/scratch/yanhao/mathematical/eval")
+    valid_dataset = SRDataset("data/eval")
     valid_dataloader = torch.utils.data.dataloader.DataLoader(
                         valid_dataset,
                         batch_size=4,
@@ -43,7 +43,7 @@ def main(learning_rate):
 
 
 
-    test_dataset = SRDataset("/cluster/scratch/yanhao/mathematical/eval")
+    test_dataset = SRDataset("data/eval")
     test_dataloader = torch.utils.data.dataloader.DataLoader(
                             test_dataset,
                             batch_size=2,

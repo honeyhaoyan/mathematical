@@ -33,7 +33,7 @@ class Tester(nn.Module):
                 #print(low_res.shape)
                 #low_res = low_res.unsqueeze(0)
                 high_res = high_res.unsqueeze(0)
-                trans = transforms.Resize(size=(32,32),interpolation=InterpolationMode.NEAREST)
+                trans = transforms.Resize(size=(32,32),interpolation=transforms.transforms.Image.NEAREST)
                 low_res = trans(high_res)
                 # low_res = high_res.resize((32,32), Image.NEAREST)
                 #print(low_res.shape)

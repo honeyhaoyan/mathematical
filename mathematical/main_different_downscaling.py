@@ -16,7 +16,7 @@ import sys
 def main(learning_rate):
     
     
-    test_dataset = SRDataset("/cluster/scratch/yanhao/mathematical/eval")
+    test_dataset = SRDataset("data/eval")
     test_dataloader = torch.utils.data.dataloader.DataLoader(
                             test_dataset,
                             batch_size=2,
