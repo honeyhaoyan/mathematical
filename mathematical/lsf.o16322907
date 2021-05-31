@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@lo-s4-075>
+Subject: Job 16322907: <python main.py 1e-3> in cluster <leonhard> Exited
+
+Job <python main.py 1e-3> was submitted from host <lo-login-02> by user <yanhao> in cluster <leonhard> at Mon May 31 20:20:32 2021
+Job was executed on host(s) <2*lo-s4-075>, in queue <gpu.4h>, as user <yanhao> in cluster <leonhard> at Mon May 31 20:31:05 2021
+</cluster/home/yanhao> was used as the home directory.
+</cluster/home/yanhao/mathematical> was used as the working directory.
+Started at Mon May 31 20:31:05 2021
+Terminated at Mon May 31 20:31:14 2021
+Results reported at Mon May 31 20:31:14 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python main.py 1e-3
+------------------------------------------------------------
+
+TERM_MEMLIMIT: job killed after reaching LSF memory usage limit.
+Exited with exit code 137.
+
+Resource usage summary:
+
+    CPU time :                                   6.26 sec.
+    Max Memory :                                 2048 MB
+    Average Memory :                             1365.67 MB
+    Total Requested Memory :                     2048.00 MB
+    Delta Memory :                               0.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                7
+    Run time :                                   8 sec.
+    Turnaround time :                            642 sec.
+
+The output (if any) follows:
+
+/cluster/shadow/.lsbatch/1622485232.16322907: line 8: 107267 Killed                  python main.py 1e-3

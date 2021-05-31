@@ -1,0 +1,475 @@
+Sender: LSF System <lsfadmin@lo-s4-020>
+Subject: Job 16322243: <python main.py 1e-1> in cluster <leonhard> Done
+
+Job <python main.py 1e-1> was submitted from host <lo-login-02> by user <yanhao> in cluster <leonhard> at Mon May 31 19:13:38 2021
+Job was executed on host(s) <2*lo-s4-020>, in queue <gpu.4h>, as user <yanhao> in cluster <leonhard> at Mon May 31 19:13:54 2021
+</cluster/home/yanhao> was used as the home directory.
+</cluster/home/yanhao/mathematical> was used as the working directory.
+Started at Mon May 31 19:13:54 2021
+Terminated at Mon May 31 19:23:54 2021
+Results reported at Mon May 31 19:23:54 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python main.py 1e-1
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1111.03 sec.
+    Max Memory :                                 2048 MB
+    Average Memory :                             1988.05 MB
+    Total Requested Memory :                     2048.00 MB
+    Delta Memory :                               0.00 MB
+    Max Swap :                                   -
+    Max Processes :                              5
+    Max Threads :                                17
+    Run time :                                   604 sec.
+    Turnaround time :                            616 sec.
+
+The output (if any) follows:
+
+Current Learning Rate is: 0.1
+/cluster/home/yanhao/miniconda3/lib/python3.8/site-packages/torchvision/transforms/transforms.py:257: UserWarning: Argument interpolation should be of type InterpolationMode instead of int. Please, use InterpolationMode enum.
+  warnings.warn(
+[Epoch 1 Training] Loss: 1951.881
+/cluster/home/yanhao/miniconda3/lib/python3.8/site-packages/torch/nn/functional.py:3454: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  warnings.warn(
+[Epoch 1 Evaluation] L1 Loss: 381.629 MSE Loss: 223272.203 PSNR Loss: -52.939
+Plotting loss ...
+[Epoch 2 Training] Loss: 2139.229
+[Epoch 2 Evaluation] L1 Loss: 11690.229 MSE Loss: 255503520.000 PSNR Loss: -83.933
+[Epoch 3 Training] Loss: 101452.422
+[Epoch 3 Evaluation] L1 Loss: 114587.891 MSE Loss: 20369184768.000 PSNR Loss: -102.498
+[Epoch 4 Training] Loss: 47885.211
+[Epoch 4 Evaluation] L1 Loss: 44298.758 MSE Loss: 2944300032.000 PSNR Loss: -94.517
+[Epoch 5 Training] Loss: 24204.791
+[Epoch 5 Evaluation] L1 Loss: 8741.051 MSE Loss: 206977472.000 PSNR Loss: -83.110
+[Epoch 6 Training] Loss: 5559.657
+[Epoch 6 Evaluation] L1 Loss: 4432.535 MSE Loss: 29066868.000 PSNR Loss: -74.359
+[Epoch 7 Training] Loss: 3276.116
+[Epoch 7 Evaluation] L1 Loss: 2396.656 MSE Loss: 7896048.500 PSNR Loss: -68.971
+[Epoch 8 Training] Loss: 1647.536
+[Epoch 8 Evaluation] L1 Loss: 1905.738 MSE Loss: 5938640.000 PSNR Loss: -67.640
+[Epoch 9 Training] Loss: 1890.014
+[Epoch 9 Evaluation] L1 Loss: 1694.806 MSE Loss: 4086557.500 PSNR Loss: -65.820
+[Epoch 10 Training] Loss: 2015.360
+[Epoch 10 Evaluation] L1 Loss: 1298.248 MSE Loss: 2203492.000 PSNR Loss: -63.397
+[Epoch 11 Training] Loss: 1819.389
+[Epoch 11 Evaluation] L1 Loss: 3404.516 MSE Loss: 26425940.000 PSNR Loss: -74.216
+Plotting loss ...
+[Epoch 12 Training] Loss: 1971.501
+[Epoch 12 Evaluation] L1 Loss: 2759.413 MSE Loss: 11037429.000 PSNR Loss: -70.045
+[Epoch 13 Training] Loss: 2657.123
+[Epoch 13 Evaluation] L1 Loss: 3372.867 MSE Loss: 16947536.000 PSNR Loss: -72.287
+[Epoch 14 Training] Loss: 2088.164
+[Epoch 14 Evaluation] L1 Loss: 848.210 MSE Loss: 1779850.500 PSNR Loss: -62.441
+[Epoch 15 Training] Loss: 1881.819
+[Epoch 15 Evaluation] L1 Loss: 4264.330 MSE Loss: 42844992.000 PSNR Loss: -76.093
+[Epoch 16 Training] Loss: 1633.883
+[Epoch 16 Evaluation] L1 Loss: 925.364 MSE Loss: 1482048.000 PSNR Loss: -61.483
+[Epoch 17 Training] Loss: 1583.036
+[Epoch 17 Evaluation] L1 Loss: 711.322 MSE Loss: 904740.000 PSNR Loss: -59.446
+[Epoch 18 Training] Loss: 1875.268
+[Epoch 18 Evaluation] L1 Loss: 4722.808 MSE Loss: 39192164.000 PSNR Loss: -75.931
+[Epoch 19 Training] Loss: 2081.552
+[Epoch 19 Evaluation] L1 Loss: 4380.609 MSE Loss: 30562824.000 PSNR Loss: -74.708
+[Epoch 20 Training] Loss: 1580.934
+[Epoch 20 Evaluation] L1 Loss: 828.702 MSE Loss: 1274391.250 PSNR Loss: -61.044
+[Epoch 21 Training] Loss: 963.742
+[Epoch 21 Evaluation] L1 Loss: 526.487 MSE Loss: 676822.875 PSNR Loss: -57.954
+Plotting loss ...
+[Epoch 22 Training] Loss: 1311.471
+[Epoch 22 Evaluation] L1 Loss: 2405.958 MSE Loss: 10789450.000 PSNR Loss: -70.158
+[Epoch 23 Training] Loss: 1678.954
+[Epoch 23 Evaluation] L1 Loss: 1403.302 MSE Loss: 4613039.000 PSNR Loss: -66.451
+[Epoch 24 Training] Loss: 1008.745
+[Epoch 24 Evaluation] L1 Loss: 833.372 MSE Loss: 1152526.750 PSNR Loss: -60.012
+[Epoch 25 Training] Loss: 887.233
+[Epoch 25 Evaluation] L1 Loss: 1300.329 MSE Loss: 3087611.500 PSNR Loss: -64.229
+[Epoch 26 Training] Loss: 628.825
+[Epoch 26 Evaluation] L1 Loss: 973.738 MSE Loss: 1548626.500 PSNR Loss: -61.677
+[Epoch 27 Training] Loss: 563.693
+[Epoch 27 Evaluation] L1 Loss: 921.588 MSE Loss: 1702260.000 PSNR Loss: -62.142
+[Epoch 28 Training] Loss: 598.823
+[Epoch 28 Evaluation] L1 Loss: 1502.823 MSE Loss: 2764189.750 PSNR Loss: -64.397
+[Epoch 29 Training] Loss: 373.646
+[Epoch 29 Evaluation] L1 Loss: 1296.791 MSE Loss: 2553543.750 PSNR Loss: -64.051
+[Epoch 30 Training] Loss: 826.214
+[Epoch 30 Evaluation] L1 Loss: 1938.110 MSE Loss: 4800456.000 PSNR Loss: -66.774
+[Epoch 31 Training] Loss: 612.490
+[Epoch 31 Evaluation] L1 Loss: 363.490 MSE Loss: 319873.531 PSNR Loss: -54.773
+Plotting loss ...
+[Epoch 32 Training] Loss: 1108.888
+[Epoch 32 Evaluation] L1 Loss: 2620.401 MSE Loss: 13724680.000 PSNR Loss: -71.375
+[Epoch 33 Training] Loss: 1192.712
+[Epoch 33 Evaluation] L1 Loss: 1402.623 MSE Loss: 2904038.250 PSNR Loss: -64.624
+[Epoch 34 Training] Loss: 826.181
+[Epoch 34 Evaluation] L1 Loss: 1493.858 MSE Loss: 3286130.000 PSNR Loss: -64.948
+[Epoch 35 Training] Loss: 809.208
+[Epoch 35 Evaluation] L1 Loss: 753.203 MSE Loss: 1536455.500 PSNR Loss: -61.777
+[Epoch 36 Training] Loss: 763.644
+[Epoch 36 Evaluation] L1 Loss: 136.980 MSE Loss: 32795.820 PSNR Loss: -44.723
+[Epoch 37 Training] Loss: 414.100
+[Epoch 37 Evaluation] L1 Loss: 605.448 MSE Loss: 582337.750 PSNR Loss: -57.651
+[Epoch 38 Training] Loss: 335.143
+[Epoch 38 Evaluation] L1 Loss: 660.347 MSE Loss: 815970.750 PSNR Loss: -58.979
+[Epoch 39 Training] Loss: 334.011
+[Epoch 39 Evaluation] L1 Loss: 463.548 MSE Loss: 480885.219 PSNR Loss: -56.426
+[Epoch 40 Training] Loss: 469.204
+[Epoch 40 Evaluation] L1 Loss: 402.083 MSE Loss: 246426.172 PSNR Loss: -53.200
+[Epoch 41 Training] Loss: 394.896
+[Epoch 41 Evaluation] L1 Loss: 230.761 MSE Loss: 116733.117 PSNR Loss: -50.605
+Plotting loss ...
+[Epoch 42 Training] Loss: 58393.133
+[Epoch 42 Evaluation] L1 Loss: 352738.250 MSE Loss: 182186328064.000 PSNR Loss: -112.597
+[Epoch 43 Training] Loss: 6353889.000
+[Epoch 43 Evaluation] L1 Loss: 614955.375 MSE Loss: 1031011434496.000 PSNR Loss: -120.057
+[Epoch 44 Training] Loss: 1606555.375
+[Epoch 44 Evaluation] L1 Loss: 305146.188 MSE Loss: 163156672512.000 PSNR Loss: -111.887
+[Epoch 45 Training] Loss: 299752.250
+[Epoch 45 Evaluation] L1 Loss: 656566.438 MSE Loss: 966055821312.000 PSNR Loss: -119.839
+[Epoch 46 Training] Loss: 282719.938
+[Epoch 46 Evaluation] L1 Loss: 540099.750 MSE Loss: 436480245760.000 PSNR Loss: -116.256
+[Epoch 47 Training] Loss: 267431.781
+[Epoch 47 Evaluation] L1 Loss: 314070.250 MSE Loss: 165047173120.000 PSNR Loss: -112.078
+[Epoch 48 Training] Loss: 190186.359
+[Epoch 48 Evaluation] L1 Loss: 65332.402 MSE Loss: 6665826304.000 PSNR Loss: -97.951
+[Epoch 49 Training] Loss: 82270.344
+[Epoch 49 Evaluation] L1 Loss: 85031.156 MSE Loss: 10478368768.000 PSNR Loss: -100.190
+[Epoch 50 Training] Loss: 71188.609
+[Epoch 50 Evaluation] L1 Loss: 100556.719 MSE Loss: 20610783232.000 PSNR Loss: -103.119
+[Epoch 51 Training] Loss: 153333.578
+[Epoch 51 Evaluation] L1 Loss: 177010.422 MSE Loss: 45981933568.000 PSNR Loss: -106.624
+Plotting loss ...
+[Epoch 52 Training] Loss: 214715.656
+[Epoch 52 Evaluation] L1 Loss: 128362.695 MSE Loss: 21841629184.000 PSNR Loss: -103.229
+[Epoch 53 Training] Loss: 181058.922
+[Epoch 53 Evaluation] L1 Loss: 108451.188 MSE Loss: 26136762368.000 PSNR Loss: -104.162
+[Epoch 54 Training] Loss: 107047.742
+[Epoch 54 Evaluation] L1 Loss: 126046.695 MSE Loss: 29076248576.000 PSNR Loss: -103.856
+[Epoch 55 Training] Loss: 76438.086
+[Epoch 55 Evaluation] L1 Loss: 128379.438 MSE Loss: 29481850880.000 PSNR Loss: -104.695
+[Epoch 56 Training] Loss: 77802.828
+[Epoch 56 Evaluation] L1 Loss: 119088.430 MSE Loss: 40547938304.000 PSNR Loss: -106.032
+[Epoch 57 Training] Loss: 71717.656
+[Epoch 57 Evaluation] L1 Loss: 42199.016 MSE Loss: 4623831552.000 PSNR Loss: -96.561
+[Epoch 58 Training] Loss: 62758.508
+[Epoch 58 Evaluation] L1 Loss: 72627.258 MSE Loss: 8300130304.000 PSNR Loss: -99.110
+[Epoch 59 Training] Loss: 65030.156
+[Epoch 59 Evaluation] L1 Loss: 48650.555 MSE Loss: 3489970688.000 PSNR Loss: -95.378
+[Epoch 60 Training] Loss: 56258.355
+[Epoch 60 Evaluation] L1 Loss: 89463.211 MSE Loss: 14235912192.000 PSNR Loss: -101.489
+[Epoch 61 Training] Loss: 62942.977
+[Epoch 61 Evaluation] L1 Loss: 53150.219 MSE Loss: 7728878592.000 PSNR Loss: -98.827
+Plotting loss ...
+[Epoch 62 Training] Loss: 51438.816
+[Epoch 62 Evaluation] L1 Loss: 71796.391 MSE Loss: 7984843264.000 PSNR Loss: -98.913
+[Epoch 63 Training] Loss: 43319.449
+[Epoch 63 Evaluation] L1 Loss: 99173.562 MSE Loss: 13512011776.000 PSNR Loss: -100.419
+[Epoch 64 Training] Loss: 40994.094
+[Epoch 64 Evaluation] L1 Loss: 62376.582 MSE Loss: 4824145920.000 PSNR Loss: -96.834
+[Epoch 65 Training] Loss: 45195.430
+[Epoch 65 Evaluation] L1 Loss: 51553.012 MSE Loss: 3400120832.000 PSNR Loss: -95.309
+[Epoch 66 Training] Loss: 32475.885
+[Epoch 66 Evaluation] L1 Loss: 43511.926 MSE Loss: 3076903936.000 PSNR Loss: -94.722
+[Epoch 67 Training] Loss: 37337.633
+[Epoch 67 Evaluation] L1 Loss: 12930.801 MSE Loss: 314930496.000 PSNR Loss: -84.921
+[Epoch 68 Training] Loss: 20944.850
+[Epoch 68 Evaluation] L1 Loss: 20307.475 MSE Loss: 685215104.000 PSNR Loss: -88.349
+[Epoch 69 Training] Loss: 22210.637
+[Epoch 69 Evaluation] L1 Loss: 37767.695 MSE Loss: 3438113792.000 PSNR Loss: -95.306
+[Epoch 70 Training] Loss: 25937.490
+[Epoch 70 Evaluation] L1 Loss: 25496.352 MSE Loss: 1408771584.000 PSNR Loss: -91.395
+[Epoch 71 Training] Loss: 17647.822
+[Epoch 71 Evaluation] L1 Loss: 74637.656 MSE Loss: 7651861504.000 PSNR Loss: -98.790
+Plotting loss ...
+[Epoch 72 Training] Loss: 17635.623
+[Epoch 72 Evaluation] L1 Loss: 20062.332 MSE Loss: 497783712.000 PSNR Loss: -86.689
+[Epoch 73 Training] Loss: 19807.803
+[Epoch 73 Evaluation] L1 Loss: 35506.828 MSE Loss: 1705737472.000 PSNR Loss: -92.173
+[Epoch 74 Training] Loss: 14417.727
+[Epoch 74 Evaluation] L1 Loss: 9701.885 MSE Loss: 264817408.000 PSNR Loss: -83.801
+[Epoch 75 Training] Loss: 8834.424
+[Epoch 75 Evaluation] L1 Loss: 12814.602 MSE Loss: 407093248.000 PSNR Loss: -86.093
+[Epoch 76 Training] Loss: 17055.986
+[Epoch 76 Evaluation] L1 Loss: 16690.609 MSE Loss: 445176128.000 PSNR Loss: -86.418
+[Epoch 77 Training] Loss: 12577.579
+[Epoch 77 Evaluation] L1 Loss: 19385.354 MSE Loss: 892477696.000 PSNR Loss: -89.429
+[Epoch 78 Training] Loss: 14793.539
+[Epoch 78 Evaluation] L1 Loss: 10802.648 MSE Loss: 220766240.000 PSNR Loss: -83.320
+[Epoch 79 Training] Loss: 10631.703
+[Epoch 79 Evaluation] L1 Loss: 21935.941 MSE Loss: 707821184.000 PSNR Loss: -88.111
+[Epoch 80 Training] Loss: 339530.281
+[Epoch 80 Evaluation] L1 Loss: 944830.000 MSE Loss: 1349795315712.000 PSNR Loss: -121.285
+[Epoch 81 Training] Loss: 6178547.000
+[Epoch 81 Evaluation] L1 Loss: 718164.000 MSE Loss: 1141493989376.000 PSNR Loss: -120.532
+Plotting loss ...
+[Epoch 82 Training] Loss: 540488.625
+[Epoch 82 Evaluation] L1 Loss: 373064.812 MSE Loss: 275415924736.000 PSNR Loss: -114.369
+[Epoch 83 Training] Loss: 280895.469
+[Epoch 83 Evaluation] L1 Loss: 409422.812 MSE Loss: 313508986880.000 PSNR Loss: -114.936
+[Epoch 84 Training] Loss: 249600.109
+[Epoch 84 Evaluation] L1 Loss: 297535.250 MSE Loss: 163585097728.000 PSNR Loss: -112.025
+[Epoch 85 Training] Loss: 191693.391
+[Epoch 85 Evaluation] L1 Loss: 88195.812 MSE Loss: 10032351232.000 PSNR Loss: -100.014
+[Epoch 86 Training] Loss: 391290.344
+[Epoch 86 Evaluation] L1 Loss: 475039.688 MSE Loss: 403145392128.000 PSNR Loss: -115.365
+[Epoch 87 Training] Loss: 395859.625
+[Epoch 87 Evaluation] L1 Loss: 293665.000 MSE Loss: 128625352704.000 PSNR Loss: -110.842
+[Epoch 88 Training] Loss: 178623.297
+[Epoch 88 Evaluation] L1 Loss: 187925.906 MSE Loss: 77110788096.000 PSNR Loss: -108.800
+[Epoch 89 Training] Loss: 222797.062
+[Epoch 89 Evaluation] L1 Loss: 176754.312 MSE Loss: 90271760384.000 PSNR Loss: -109.496
+[Epoch 90 Training] Loss: 187761.562
+[Epoch 90 Evaluation] L1 Loss: 187701.141 MSE Loss: 54419877888.000 PSNR Loss: -107.216
+[Epoch 91 Training] Loss: 223532.000
+[Epoch 91 Evaluation] L1 Loss: 263812.344 MSE Loss: 85585625088.000 PSNR Loss: -109.321
+Plotting loss ...
+[Epoch 92 Training] Loss: 166865.312
+[Epoch 92 Evaluation] L1 Loss: 110817.734 MSE Loss: 25549293568.000 PSNR Loss: -103.752
+[Epoch 93 Training] Loss: 191595.719
+[Epoch 93 Evaluation] L1 Loss: 135242.281 MSE Loss: 38201380864.000 PSNR Loss: -105.748
+[Epoch 94 Training] Loss: 141188.328
+[Epoch 94 Evaluation] L1 Loss: 97826.727 MSE Loss: 23582089216.000 PSNR Loss: -103.676
+[Epoch 95 Training] Loss: 188361.391
+[Epoch 95 Evaluation] L1 Loss: 125106.102 MSE Loss: 31194353664.000 PSNR Loss: -104.779
+[Epoch 96 Training] Loss: 142979.203
+[Epoch 96 Evaluation] L1 Loss: 53460.465 MSE Loss: 5209731072.000 PSNR Loss: -97.072
+[Epoch 97 Training] Loss: 95473.555
+[Epoch 97 Evaluation] L1 Loss: 222095.656 MSE Loss: 71875739648.000 PSNR Loss: -108.565
+[Epoch 98 Training] Loss: 104554.875
+[Epoch 98 Evaluation] L1 Loss: 29231.531 MSE Loss: 1253056000.000 PSNR Loss: -90.960
+[Epoch 99 Training] Loss: 128246.938
+[Epoch 99 Evaluation] L1 Loss: 189339.344 MSE Loss: 45459677184.000 PSNR Loss: -106.573
+[Epoch 100 Training] Loss: 88932.430
+Saving model ...
+[Epoch 100 Evaluation] L1 Loss: 124111.617 MSE Loss: 28524883968.000 PSNR Loss: -104.347
+[Epoch 101 Training] Loss: 89377.172
+[Epoch 101 Evaluation] L1 Loss: 43653.047 MSE Loss: 4773666304.000 PSNR Loss: -96.744
+Plotting loss ...
+[Epoch 102 Training] Loss: 56675.988
+[Epoch 102 Evaluation] L1 Loss: 101861.844 MSE Loss: 15195962368.000 PSNR Loss: -101.801
+[Epoch 103 Training] Loss: 77587.125
+[Epoch 103 Evaluation] L1 Loss: 30915.949 MSE Loss: 2072270080.000 PSNR Loss: -93.016
+[Epoch 104 Training] Loss: 62441.848
+[Epoch 104 Evaluation] L1 Loss: 83479.719 MSE Loss: 11576024064.000 PSNR Loss: -100.305
+[Epoch 105 Training] Loss: 104739.164
+[Epoch 105 Evaluation] L1 Loss: 138123.438 MSE Loss: 26418014208.000 PSNR Loss: -104.041
+[Epoch 106 Training] Loss: 82014.789
+[Epoch 106 Evaluation] L1 Loss: 28215.980 MSE Loss: 1155668224.000 PSNR Loss: -90.545
+[Epoch 107 Training] Loss: 56642.816
+[Epoch 107 Evaluation] L1 Loss: 127549.930 MSE Loss: 31307960320.000 PSNR Loss: -104.792
+[Epoch 108 Training] Loss: 124510.586
+[Epoch 108 Evaluation] L1 Loss: 135912.469 MSE Loss: 25973604352.000 PSNR Loss: -104.013
+[Epoch 109 Training] Loss: 59137.754
+[Epoch 109 Evaluation] L1 Loss: 52511.090 MSE Loss: 4950280704.000 PSNR Loss: -96.946
+[Epoch 110 Training] Loss: 58981.027
+[Epoch 110 Evaluation] L1 Loss: 44066.125 MSE Loss: 3746742272.000 PSNR Loss: -92.889
+[Epoch 111 Training] Loss: 71413.109
+[Epoch 111 Evaluation] L1 Loss: 144761.875 MSE Loss: 33416482816.000 PSNR Loss: -105.236
+Plotting loss ...
+[Epoch 112 Training] Loss: 62831.234
+[Epoch 112 Evaluation] L1 Loss: 30095.602 MSE Loss: 1443372032.000 PSNR Loss: -91.457
+[Epoch 113 Training] Loss: 63997.383
+[Epoch 113 Evaluation] L1 Loss: 193546.969 MSE Loss: 54113779712.000 PSNR Loss: -107.193
+[Epoch 114 Training] Loss: 75848.445
+[Epoch 114 Evaluation] L1 Loss: 156995.375 MSE Loss: 32628172800.000 PSNR Loss: -104.683
+[Epoch 115 Training] Loss: 44575.406
+[Epoch 115 Evaluation] L1 Loss: 52028.539 MSE Loss: 4799705088.000 PSNR Loss: -96.721
+[Epoch 116 Training] Loss: 55273.500
+[Epoch 116 Evaluation] L1 Loss: 108884.516 MSE Loss: 21647466496.000 PSNR Loss: -102.691
+[Epoch 117 Training] Loss: 40270.637
+[Epoch 117 Evaluation] L1 Loss: 29474.086 MSE Loss: 1478880384.000 PSNR Loss: -91.383
+[Epoch 118 Training] Loss: 43552.801
+[Epoch 118 Evaluation] L1 Loss: 26733.137 MSE Loss: 1465768192.000 PSNR Loss: -91.538
+[Epoch 119 Training] Loss: 49890.402
+[Epoch 119 Evaluation] L1 Loss: 102302.125 MSE Loss: 12939634688.000 PSNR Loss: -101.108
+[Epoch 120 Training] Loss: 56559.988
+[Epoch 120 Evaluation] L1 Loss: 24296.451 MSE Loss: 1502966528.000 PSNR Loss: -91.676
+[Epoch 121 Training] Loss: 32802.438
+[Epoch 121 Evaluation] L1 Loss: 48447.121 MSE Loss: 3558764800.000 PSNR Loss: -95.513
+Plotting loss ...
+[Epoch 122 Training] Loss: 42962.312
+[Epoch 122 Evaluation] L1 Loss: 25604.000 MSE Loss: 1287610624.000 PSNR Loss: -91.063
+[Epoch 123 Training] Loss: 38451.242
+[Epoch 123 Evaluation] L1 Loss: 33958.508 MSE Loss: 2246783488.000 PSNR Loss: -93.483
+[Epoch 124 Training] Loss: 30192.410
+[Epoch 124 Evaluation] L1 Loss: 44512.066 MSE Loss: 3100140544.000 PSNR Loss: -94.831
+[Epoch 125 Training] Loss: 62294.477
+[Epoch 125 Evaluation] L1 Loss: 22060.574 MSE Loss: 908483584.000 PSNR Loss: -89.567
+[Epoch 126 Training] Loss: 45954.508
+[Epoch 126 Evaluation] L1 Loss: 29016.223 MSE Loss: 1487074304.000 PSNR Loss: -91.709
+[Epoch 127 Training] Loss: 45811.105
+[Epoch 127 Evaluation] L1 Loss: 30652.377 MSE Loss: 1338083968.000 PSNR Loss: -91.228
+[Epoch 128 Training] Loss: 23382.451
+[Epoch 128 Evaluation] L1 Loss: 27529.471 MSE Loss: 1068969600.000 PSNR Loss: -90.252
+[Epoch 129 Training] Loss: 28838.951
+[Epoch 129 Evaluation] L1 Loss: 14428.251 MSE Loss: 320978048.000 PSNR Loss: -85.045
+[Epoch 130 Training] Loss: 17215.336
+[Epoch 130 Evaluation] L1 Loss: 22959.672 MSE Loss: 904344448.000 PSNR Loss: -89.419
+[Epoch 131 Training] Loss: 36264.777
+[Epoch 131 Evaluation] L1 Loss: 22667.326 MSE Loss: 796182208.000 PSNR Loss: -88.957
+Plotting loss ...
+[Epoch 132 Training] Loss: 22161.168
+[Epoch 132 Evaluation] L1 Loss: 10295.270 MSE Loss: 214409504.000 PSNR Loss: -83.115
+[Epoch 133 Training] Loss: 26680.021
+[Epoch 133 Evaluation] L1 Loss: 64702.000 MSE Loss: 6419903488.000 PSNR Loss: -96.961
+[Epoch 134 Training] Loss: 39277.504
+[Epoch 134 Evaluation] L1 Loss: 13438.042 MSE Loss: 295990688.000 PSNR Loss: -84.291
+[Epoch 135 Training] Loss: 1551202.625
+[Epoch 135 Evaluation] L1 Loss: 399775.000 MSE Loss: 331921096704.000 PSNR Loss: -115.151
+[Epoch 136 Training] Loss: 416794.906
+[Epoch 136 Evaluation] L1 Loss: 345622.344 MSE Loss: 214317367296.000 PSNR Loss: -113.168
+[Epoch 137 Training] Loss: 302177.031
+[Epoch 137 Evaluation] L1 Loss: 510829.375 MSE Loss: 409221627904.000 PSNR Loss: -116.054
+[Epoch 138 Training] Loss: 919052.375
+[Epoch 138 Evaluation] L1 Loss: 1066610.750 MSE Loss: 1572510629888.000 PSNR Loss: -121.699
+[Epoch 139 Training] Loss: 514657.938
+[Epoch 139 Evaluation] L1 Loss: 1092757.250 MSE Loss: 1690065305600.000 PSNR Loss: -121.982
+[Epoch 140 Training] Loss: 426937.562
+[Epoch 140 Evaluation] L1 Loss: 94622.969 MSE Loss: 16077783040.000 PSNR Loss: -102.012
+[Epoch 141 Training] Loss: 181102.250
+[Epoch 141 Evaluation] L1 Loss: 295685.688 MSE Loss: 118303113216.000 PSNR Loss: -110.596
+Plotting loss ...
+[Epoch 142 Training] Loss: 175386.453
+[Epoch 142 Evaluation] L1 Loss: 141215.531 MSE Loss: 29858363392.000 PSNR Loss: -104.469
+[Epoch 143 Training] Loss: 151751.609
+[Epoch 143 Evaluation] L1 Loss: 72118.234 MSE Loss: 11176792064.000 PSNR Loss: -100.335
+[Epoch 144 Training] Loss: 99564.055
+[Epoch 144 Evaluation] L1 Loss: 130462.766 MSE Loss: 22026145792.000 PSNR Loss: -103.367
+[Epoch 145 Training] Loss: 133744.031
+[Epoch 145 Evaluation] L1 Loss: 272627.250 MSE Loss: 102341181440.000 PSNR Loss: -109.736
+[Epoch 146 Training] Loss: 87641.391
+[Epoch 146 Evaluation] L1 Loss: 64235.391 MSE Loss: 8450873344.000 PSNR Loss: -98.987
+[Epoch 147 Training] Loss: 89900.312
+[Epoch 147 Evaluation] L1 Loss: 112447.953 MSE Loss: 21465796608.000 PSNR Loss: -103.273
+[Epoch 148 Training] Loss: 75832.375
+[Epoch 148 Evaluation] L1 Loss: 155775.969 MSE Loss: 45898854400.000 PSNR Loss: -106.594
+[Epoch 149 Training] Loss: 75234.797
+[Epoch 149 Evaluation] L1 Loss: 64746.461 MSE Loss: 7749094400.000 PSNR Loss: -98.573
+[Epoch 150 Training] Loss: 60170.422
+[Epoch 150 Evaluation] L1 Loss: 47066.301 MSE Loss: 4288234752.000 PSNR Loss: -96.284
+[Epoch 151 Training] Loss: 56511.367
+[Epoch 151 Evaluation] L1 Loss: 157776.875 MSE Loss: 43453472768.000 PSNR Loss: -106.355
+Plotting loss ...
+[Epoch 152 Training] Loss: 63986.047
+[Epoch 152 Evaluation] L1 Loss: 79817.125 MSE Loss: 9216940032.000 PSNR Loss: -99.515
+[Epoch 153 Training] Loss: 77621.734
+[Epoch 153 Evaluation] L1 Loss: 53984.055 MSE Loss: 7549114368.000 PSNR Loss: -98.554
+[Epoch 154 Training] Loss: 61295.977
+[Epoch 154 Evaluation] L1 Loss: 69680.531 MSE Loss: 14514838528.000 PSNR Loss: -101.494
+[Epoch 155 Training] Loss: 51123.613
+[Epoch 155 Evaluation] L1 Loss: 57699.266 MSE Loss: 6270223360.000 PSNR Loss: -96.147
+[Epoch 156 Training] Loss: 48127.129
+[Epoch 156 Evaluation] L1 Loss: 47315.016 MSE Loss: 4490733568.000 PSNR Loss: -96.523
+[Epoch 157 Training] Loss: 52436.742
+[Epoch 157 Evaluation] L1 Loss: 63184.926 MSE Loss: 6340199936.000 PSNR Loss: -97.918
+[Epoch 158 Training] Loss: 52971.891
+[Epoch 158 Evaluation] L1 Loss: 58630.539 MSE Loss: 7197786112.000 PSNR Loss: -98.569
+[Epoch 159 Training] Loss: 48867.430
+[Epoch 159 Evaluation] L1 Loss: 60888.727 MSE Loss: 6909560320.000 PSNR Loss: -98.327
+[Epoch 160 Training] Loss: 54933.988
+[Epoch 160 Evaluation] L1 Loss: 63996.367 MSE Loss: 6686210048.000 PSNR Loss: -97.552
+[Epoch 161 Training] Loss: 52319.738
+[Epoch 161 Evaluation] L1 Loss: 55380.707 MSE Loss: 4789575168.000 PSNR Loss: -96.801
+Plotting loss ...
+[Epoch 162 Training] Loss: 97000.680
+[Epoch 162 Evaluation] L1 Loss: 103342.773 MSE Loss: 19149754368.000 PSNR Loss: -102.733
+[Epoch 163 Training] Loss: 86546.898
+[Epoch 163 Evaluation] L1 Loss: 106679.625 MSE Loss: 16033857536.000 PSNR Loss: -102.050
+[Epoch 164 Training] Loss: 110558.133
+[Epoch 164 Evaluation] L1 Loss: 83672.406 MSE Loss: 11090909184.000 PSNR Loss: -99.875
+[Epoch 165 Training] Loss: 101379.500
+[Epoch 165 Evaluation] L1 Loss: 200872.812 MSE Loss: 55970242560.000 PSNR Loss: -107.469
+[Epoch 166 Training] Loss: 3616384.500
+[Epoch 166 Evaluation] L1 Loss: 407562.875 MSE Loss: 254885756928.000 PSNR Loss: -113.864
+[Epoch 167 Training] Loss: 235151.422
+[Epoch 167 Evaluation] L1 Loss: 250345.938 MSE Loss: 105083994112.000 PSNR Loss: -110.213
+[Epoch 168 Training] Loss: 126684.680
+[Epoch 168 Evaluation] L1 Loss: 120206.031 MSE Loss: 27856576512.000 PSNR Loss: -104.241
+[Epoch 169 Training] Loss: 109289.422
+[Epoch 169 Evaluation] L1 Loss: 135530.922 MSE Loss: 40462794752.000 PSNR Loss: -105.784
+[Epoch 170 Training] Loss: 75413.828
+[Epoch 170 Evaluation] L1 Loss: 159537.828 MSE Loss: 34376196096.000 PSNR Loss: -105.318
+[Epoch 171 Training] Loss: 69888.297
+[Epoch 171 Evaluation] L1 Loss: 43427.223 MSE Loss: 3697808896.000 PSNR Loss: -95.608
+Plotting loss ...
+[Epoch 172 Training] Loss: 54465.004
+[Epoch 172 Evaluation] L1 Loss: 26824.297 MSE Loss: 1528020608.000 PSNR Loss: -91.780
+[Epoch 173 Training] Loss: 49670.777
+[Epoch 173 Evaluation] L1 Loss: 43836.266 MSE Loss: 3170228736.000 PSNR Loss: -94.884
+[Epoch 174 Training] Loss: 65056.328
+[Epoch 174 Evaluation] L1 Loss: 92328.531 MSE Loss: 12414158848.000 PSNR Loss: -100.934
+[Epoch 175 Training] Loss: 57415.641
+[Epoch 175 Evaluation] L1 Loss: 79009.328 MSE Loss: 9049745408.000 PSNR Loss: -99.521
+[Epoch 176 Training] Loss: 117925.133
+[Epoch 176 Evaluation] L1 Loss: 221524.828 MSE Loss: 107020582912.000 PSNR Loss: -110.222
+[Epoch 177 Training] Loss: 96581.461
+[Epoch 177 Evaluation] L1 Loss: 82836.359 MSE Loss: 12381266944.000 PSNR Loss: -100.710
+[Epoch 178 Training] Loss: 82154.875
+[Epoch 178 Evaluation] L1 Loss: 67255.398 MSE Loss: 5709453312.000 PSNR Loss: -97.483
+[Epoch 179 Training] Loss: 62351.066
+[Epoch 179 Evaluation] L1 Loss: 51118.188 MSE Loss: 4038735872.000 PSNR Loss: -96.047
+[Epoch 180 Training] Loss: 59010.402
+[Epoch 180 Evaluation] L1 Loss: 101178.234 MSE Loss: 15602083840.000 PSNR Loss: -101.856
+[Epoch 181 Training] Loss: 53479.637
+[Epoch 181 Evaluation] L1 Loss: 29400.420 MSE Loss: 1635181696.000 PSNR Loss: -92.134
+Plotting loss ...
+[Epoch 182 Training] Loss: 47348.449
+[Epoch 182 Evaluation] L1 Loss: 23746.900 MSE Loss: 1218782976.000 PSNR Loss: -90.073
+[Epoch 183 Training] Loss: 37521.195
+[Epoch 183 Evaluation] L1 Loss: 31295.961 MSE Loss: 1795584768.000 PSNR Loss: -92.410
+[Epoch 184 Training] Loss: 39117.082
+[Epoch 184 Evaluation] L1 Loss: 41709.582 MSE Loss: 3211590144.000 PSNR Loss: -94.905
+[Epoch 185 Training] Loss: 37663.812
+[Epoch 185 Evaluation] L1 Loss: 32406.311 MSE Loss: 1866185344.000 PSNR Loss: -92.693
+[Epoch 186 Training] Loss: 55057.516
+[Epoch 186 Evaluation] L1 Loss: 56740.129 MSE Loss: 4123412224.000 PSNR Loss: -96.152
+[Epoch 187 Training] Loss: 55499.906
+[Epoch 187 Evaluation] L1 Loss: 58982.375 MSE Loss: 4244993536.000 PSNR Loss: -96.043
+[Epoch 188 Training] Loss: 52578.633
+[Epoch 188 Evaluation] L1 Loss: 42637.711 MSE Loss: 4741460992.000 PSNR Loss: -96.283
+[Epoch 189 Training] Loss: 41335.656
+[Epoch 189 Evaluation] L1 Loss: 83264.000 MSE Loss: 13029577728.000 PSNR Loss: -100.934
+[Epoch 190 Training] Loss: 47230.129
+[Epoch 190 Evaluation] L1 Loss: 36776.082 MSE Loss: 2379886080.000 PSNR Loss: -93.055
+[Epoch 191 Training] Loss: 51147.539
+[Epoch 191 Evaluation] L1 Loss: 54857.707 MSE Loss: 4738310656.000 PSNR Loss: -96.671
+Plotting loss ...
+[Epoch 192 Training] Loss: 34653.879
+[Epoch 192 Evaluation] L1 Loss: 44222.734 MSE Loss: 2472530432.000 PSNR Loss: -93.136
+[Epoch 193 Training] Loss: 21533.113
+[Epoch 193 Evaluation] L1 Loss: 32304.746 MSE Loss: 1338507136.000 PSNR Loss: -91.135
+[Epoch 194 Training] Loss: 25760.477
+[Epoch 194 Evaluation] L1 Loss: 19825.107 MSE Loss: 780170112.000 PSNR Loss: -88.922
+[Epoch 195 Training] Loss: 29825.877
+[Epoch 195 Evaluation] L1 Loss: 27691.016 MSE Loss: 1032424256.000 PSNR Loss: -90.065
+[Epoch 196 Training] Loss: 21395.646
+[Epoch 196 Evaluation] L1 Loss: 23778.158 MSE Loss: 771513408.000 PSNR Loss: -88.859
+[Epoch 197 Training] Loss: 13144.352
+[Epoch 197 Evaluation] L1 Loss: 15085.498 MSE Loss: 452814464.000 PSNR Loss: -86.537
+[Epoch 198 Training] Loss: 13292.272
+[Epoch 198 Evaluation] L1 Loss: 12064.308 MSE Loss: 233878032.000 PSNR Loss: -83.360
+[Epoch 199 Training] Loss: 22368.805
+[Epoch 199 Evaluation] L1 Loss: 44002.434 MSE Loss: 2954532864.000 PSNR Loss: -94.659
+[Epoch 200 Training] Loss: 19616.691
+Saving model ...
+[Epoch 200 Evaluation] L1 Loss: 11977.936 MSE Loss: 262732384.000 PSNR Loss: -84.164
+[    1] mse_loss: 113498776.000 psnr_loss: -80.550 
+[    2] mse_loss: 190643600.000 psnr_loss: -82.802 
+[    3] mse_loss: 50979628.000 psnr_loss: -77.074 
+[    4] mse_loss: 432807328.000 psnr_loss: -86.363 
+[    5] mse_loss: 115639208.000 psnr_loss: -80.631 
+[    6] mse_loss: 563592576.000 psnr_loss: -87.510 
+[    7] mse_loss: 27561296.000 psnr_loss: -74.403 
+[    8] mse_loss: 372902144.000 psnr_loss: -85.716 
+[    9] mse_loss: 53529620.000 psnr_loss: -77.286 
+[   10] mse_loss: 47287596.000 psnr_loss: -76.747 
+Final Loss: 
+MSE: tensor(1.9684e+08)
+PSNR: tensor(-80.9082)

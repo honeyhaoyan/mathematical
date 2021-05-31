@@ -1,0 +1,475 @@
+Sender: LSF System <lsfadmin@lo-s4-020>
+Subject: Job 16322786: <python main.py 1e-5> in cluster <leonhard> Done
+
+Job <python main.py 1e-5> was submitted from host <lo-login-02> by user <yanhao> in cluster <leonhard> at Mon May 31 19:48:29 2021
+Job was executed on host(s) <2*lo-s4-020>, in queue <gpu.4h>, as user <yanhao> in cluster <leonhard> at Mon May 31 19:48:54 2021
+</cluster/home/yanhao> was used as the home directory.
+</cluster/home/yanhao/mathematical> was used as the working directory.
+Started at Mon May 31 19:48:54 2021
+Terminated at Mon May 31 19:59:24 2021
+Results reported at Mon May 31 19:59:24 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python main.py 1e-5
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1132.92 sec.
+    Max Memory :                                 2048 MB
+    Average Memory :                             1987.14 MB
+    Total Requested Memory :                     2048.00 MB
+    Delta Memory :                               0.00 MB
+    Max Swap :                                   -
+    Max Processes :                              5
+    Max Threads :                                17
+    Run time :                                   656 sec.
+    Turnaround time :                            655 sec.
+
+The output (if any) follows:
+
+Current Learning Rate is: 1e-05
+/cluster/home/yanhao/miniconda3/lib/python3.8/site-packages/torchvision/transforms/transforms.py:257: UserWarning: Argument interpolation should be of type InterpolationMode instead of int. Please, use InterpolationMode enum.
+  warnings.warn(
+[Epoch 1 Training] Loss: 0.390
+/cluster/home/yanhao/miniconda3/lib/python3.8/site-packages/torch/nn/functional.py:3454: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  warnings.warn(
+[Epoch 1 Evaluation] L1 Loss: 0.401 MSE Loss: 0.243 PSNR Loss: 6.408
+Plotting loss ...
+[Epoch 2 Training] Loss: 0.341
+[Epoch 2 Evaluation] L1 Loss: 0.367 MSE Loss: 0.192 PSNR Loss: 7.218
+[Epoch 3 Training] Loss: 0.205
+[Epoch 3 Evaluation] L1 Loss: 0.135 MSE Loss: 0.029 PSNR Loss: 15.353
+[Epoch 4 Training] Loss: 0.128
+[Epoch 4 Evaluation] L1 Loss: 0.135 MSE Loss: 0.031 PSNR Loss: 15.206
+[Epoch 5 Training] Loss: 0.120
+[Epoch 5 Evaluation] L1 Loss: 0.126 MSE Loss: 0.026 PSNR Loss: 15.843
+[Epoch 6 Training] Loss: 0.108
+[Epoch 6 Evaluation] L1 Loss: 0.097 MSE Loss: 0.021 PSNR Loss: 16.857
+[Epoch 7 Training] Loss: 0.099
+[Epoch 7 Evaluation] L1 Loss: 0.109 MSE Loss: 0.025 PSNR Loss: 16.058
+[Epoch 8 Training] Loss: 0.096
+[Epoch 8 Evaluation] L1 Loss: 0.111 MSE Loss: 0.027 PSNR Loss: 16.233
+[Epoch 9 Training] Loss: 0.093
+[Epoch 9 Evaluation] L1 Loss: 0.103 MSE Loss: 0.024 PSNR Loss: 16.230
+[Epoch 10 Training] Loss: 0.096
+[Epoch 10 Evaluation] L1 Loss: 0.145 MSE Loss: 0.041 PSNR Loss: 15.339
+[Epoch 11 Training] Loss: 0.092
+[Epoch 11 Evaluation] L1 Loss: 0.095 MSE Loss: 0.021 PSNR Loss: 17.116
+Plotting loss ...
+[Epoch 12 Training] Loss: 0.091
+[Epoch 12 Evaluation] L1 Loss: 0.087 MSE Loss: 0.018 PSNR Loss: 17.728
+[Epoch 13 Training] Loss: 0.089
+[Epoch 13 Evaluation] L1 Loss: 0.122 MSE Loss: 0.029 PSNR Loss: 15.485
+[Epoch 14 Training] Loss: 0.086
+[Epoch 14 Evaluation] L1 Loss: 0.079 MSE Loss: 0.015 PSNR Loss: 18.426
+[Epoch 15 Training] Loss: 0.084
+[Epoch 15 Evaluation] L1 Loss: 0.116 MSE Loss: 0.028 PSNR Loss: 15.632
+[Epoch 16 Training] Loss: 0.084
+[Epoch 16 Evaluation] L1 Loss: 0.094 MSE Loss: 0.020 PSNR Loss: 16.928
+[Epoch 17 Training] Loss: 0.082
+[Epoch 17 Evaluation] L1 Loss: 0.130 MSE Loss: 0.033 PSNR Loss: 14.855
+[Epoch 18 Training] Loss: 0.084
+[Epoch 18 Evaluation] L1 Loss: 0.080 MSE Loss: 0.017 PSNR Loss: 17.831
+[Epoch 19 Training] Loss: 0.079
+[Epoch 19 Evaluation] L1 Loss: 0.087 MSE Loss: 0.018 PSNR Loss: 17.599
+[Epoch 20 Training] Loss: 0.078
+[Epoch 20 Evaluation] L1 Loss: 0.082 MSE Loss: 0.015 PSNR Loss: 18.191
+[Epoch 21 Training] Loss: 0.079
+[Epoch 21 Evaluation] L1 Loss: 0.079 MSE Loss: 0.016 PSNR Loss: 18.131
+Plotting loss ...
+[Epoch 22 Training] Loss: 0.075
+[Epoch 22 Evaluation] L1 Loss: 0.086 MSE Loss: 0.021 PSNR Loss: 16.774
+[Epoch 23 Training] Loss: 0.068
+[Epoch 23 Evaluation] L1 Loss: 0.083 MSE Loss: 0.017 PSNR Loss: 17.643
+[Epoch 24 Training] Loss: 0.065
+[Epoch 24 Evaluation] L1 Loss: 0.082 MSE Loss: 0.017 PSNR Loss: 17.763
+[Epoch 25 Training] Loss: 0.059
+[Epoch 25 Evaluation] L1 Loss: 0.073 MSE Loss: 0.017 PSNR Loss: 17.938
+[Epoch 26 Training] Loss: 0.056
+[Epoch 26 Evaluation] L1 Loss: 0.082 MSE Loss: 0.016 PSNR Loss: 18.127
+[Epoch 27 Training] Loss: 0.057
+[Epoch 27 Evaluation] L1 Loss: 0.063 MSE Loss: 0.012 PSNR Loss: 19.052
+[Epoch 28 Training] Loss: 0.053
+[Epoch 28 Evaluation] L1 Loss: 0.059 MSE Loss: 0.010 PSNR Loss: 20.207
+[Epoch 29 Training] Loss: 0.050
+[Epoch 29 Evaluation] L1 Loss: 0.057 MSE Loss: 0.009 PSNR Loss: 20.620
+[Epoch 30 Training] Loss: 0.050
+[Epoch 30 Evaluation] L1 Loss: 0.067 MSE Loss: 0.012 PSNR Loss: 19.160
+[Epoch 31 Training] Loss: 0.051
+[Epoch 31 Evaluation] L1 Loss: 0.063 MSE Loss: 0.011 PSNR Loss: 19.658
+Plotting loss ...
+[Epoch 32 Training] Loss: 0.048
+[Epoch 32 Evaluation] L1 Loss: 0.063 MSE Loss: 0.012 PSNR Loss: 19.206
+[Epoch 33 Training] Loss: 0.046
+[Epoch 33 Evaluation] L1 Loss: 0.056 MSE Loss: 0.010 PSNR Loss: 20.147
+[Epoch 34 Training] Loss: 0.046
+[Epoch 34 Evaluation] L1 Loss: 0.062 MSE Loss: 0.011 PSNR Loss: 19.609
+[Epoch 35 Training] Loss: 0.047
+[Epoch 35 Evaluation] L1 Loss: 0.057 MSE Loss: 0.008 PSNR Loss: 20.909
+[Epoch 36 Training] Loss: 0.046
+[Epoch 36 Evaluation] L1 Loss: 0.066 MSE Loss: 0.013 PSNR Loss: 19.966
+[Epoch 37 Training] Loss: 0.043
+[Epoch 37 Evaluation] L1 Loss: 0.078 MSE Loss: 0.018 PSNR Loss: 17.457
+[Epoch 38 Training] Loss: 0.046
+[Epoch 38 Evaluation] L1 Loss: 0.064 MSE Loss: 0.011 PSNR Loss: 19.516
+[Epoch 39 Training] Loss: 0.044
+[Epoch 39 Evaluation] L1 Loss: 0.077 MSE Loss: 0.016 PSNR Loss: 17.993
+[Epoch 40 Training] Loss: 0.047
+[Epoch 40 Evaluation] L1 Loss: 0.058 MSE Loss: 0.009 PSNR Loss: 20.502
+[Epoch 41 Training] Loss: 0.045
+[Epoch 41 Evaluation] L1 Loss: 0.066 MSE Loss: 0.013 PSNR Loss: 19.144
+Plotting loss ...
+[Epoch 42 Training] Loss: 0.043
+[Epoch 42 Evaluation] L1 Loss: 0.048 MSE Loss: 0.008 PSNR Loss: 21.030
+[Epoch 43 Training] Loss: 0.045
+[Epoch 43 Evaluation] L1 Loss: 0.071 MSE Loss: 0.016 PSNR Loss: 18.119
+[Epoch 44 Training] Loss: 0.044
+[Epoch 44 Evaluation] L1 Loss: 0.064 MSE Loss: 0.012 PSNR Loss: 19.596
+[Epoch 45 Training] Loss: 0.041
+[Epoch 45 Evaluation] L1 Loss: 0.061 MSE Loss: 0.013 PSNR Loss: 19.019
+[Epoch 46 Training] Loss: 0.043
+[Epoch 46 Evaluation] L1 Loss: 0.060 MSE Loss: 0.010 PSNR Loss: 20.208
+[Epoch 47 Training] Loss: 0.043
+[Epoch 47 Evaluation] L1 Loss: 0.064 MSE Loss: 0.012 PSNR Loss: 19.323
+[Epoch 48 Training] Loss: 0.043
+[Epoch 48 Evaluation] L1 Loss: 0.060 MSE Loss: 0.012 PSNR Loss: 19.182
+[Epoch 49 Training] Loss: 0.041
+[Epoch 49 Evaluation] L1 Loss: 0.057 MSE Loss: 0.010 PSNR Loss: 20.308
+[Epoch 50 Training] Loss: 0.041
+[Epoch 50 Evaluation] L1 Loss: 0.060 MSE Loss: 0.013 PSNR Loss: 19.054
+[Epoch 51 Training] Loss: 0.041
+[Epoch 51 Evaluation] L1 Loss: 0.051 MSE Loss: 0.009 PSNR Loss: 20.858
+Plotting loss ...
+[Epoch 52 Training] Loss: 0.042
+[Epoch 52 Evaluation] L1 Loss: 0.065 MSE Loss: 0.012 PSNR Loss: 19.656
+[Epoch 53 Training] Loss: 0.041
+[Epoch 53 Evaluation] L1 Loss: 0.067 MSE Loss: 0.013 PSNR Loss: 18.961
+[Epoch 54 Training] Loss: 0.040
+[Epoch 54 Evaluation] L1 Loss: 0.069 MSE Loss: 0.013 PSNR Loss: 18.757
+[Epoch 55 Training] Loss: 0.041
+[Epoch 55 Evaluation] L1 Loss: 0.061 MSE Loss: 0.011 PSNR Loss: 19.725
+[Epoch 56 Training] Loss: 0.041
+[Epoch 56 Evaluation] L1 Loss: 0.055 MSE Loss: 0.010 PSNR Loss: 20.352
+[Epoch 57 Training] Loss: 0.039
+[Epoch 57 Evaluation] L1 Loss: 0.058 MSE Loss: 0.009 PSNR Loss: 20.478
+[Epoch 58 Training] Loss: 0.040
+[Epoch 58 Evaluation] L1 Loss: 0.063 MSE Loss: 0.011 PSNR Loss: 19.609
+[Epoch 59 Training] Loss: 0.042
+[Epoch 59 Evaluation] L1 Loss: 0.060 MSE Loss: 0.011 PSNR Loss: 20.083
+[Epoch 60 Training] Loss: 0.039
+[Epoch 60 Evaluation] L1 Loss: 0.043 MSE Loss: 0.006 PSNR Loss: 22.298
+[Epoch 61 Training] Loss: 0.039
+[Epoch 61 Evaluation] L1 Loss: 0.052 MSE Loss: 0.008 PSNR Loss: 20.921
+Plotting loss ...
+[Epoch 62 Training] Loss: 0.039
+[Epoch 62 Evaluation] L1 Loss: 0.051 MSE Loss: 0.008 PSNR Loss: 21.093
+[Epoch 63 Training] Loss: 0.040
+[Epoch 63 Evaluation] L1 Loss: 0.062 MSE Loss: 0.011 PSNR Loss: 19.641
+[Epoch 64 Training] Loss: 0.039
+[Epoch 64 Evaluation] L1 Loss: 0.051 MSE Loss: 0.008 PSNR Loss: 20.972
+[Epoch 65 Training] Loss: 0.039
+[Epoch 65 Evaluation] L1 Loss: 0.058 MSE Loss: 0.010 PSNR Loss: 20.916
+[Epoch 66 Training] Loss: 0.037
+[Epoch 66 Evaluation] L1 Loss: 0.058 MSE Loss: 0.010 PSNR Loss: 20.109
+[Epoch 67 Training] Loss: 0.038
+[Epoch 67 Evaluation] L1 Loss: 0.055 MSE Loss: 0.008 PSNR Loss: 20.984
+[Epoch 68 Training] Loss: 0.040
+[Epoch 68 Evaluation] L1 Loss: 0.058 MSE Loss: 0.010 PSNR Loss: 19.929
+[Epoch 69 Training] Loss: 0.039
+[Epoch 69 Evaluation] L1 Loss: 0.058 MSE Loss: 0.008 PSNR Loss: 20.984
+[Epoch 70 Training] Loss: 0.038
+[Epoch 70 Evaluation] L1 Loss: 0.053 MSE Loss: 0.009 PSNR Loss: 20.683
+[Epoch 71 Training] Loss: 0.038
+[Epoch 71 Evaluation] L1 Loss: 0.060 MSE Loss: 0.009 PSNR Loss: 20.616
+Plotting loss ...
+[Epoch 72 Training] Loss: 0.038
+[Epoch 72 Evaluation] L1 Loss: 0.053 MSE Loss: 0.010 PSNR Loss: 19.955
+[Epoch 73 Training] Loss: 0.040
+[Epoch 73 Evaluation] L1 Loss: 0.052 MSE Loss: 0.006 PSNR Loss: 21.929
+[Epoch 74 Training] Loss: 0.037
+[Epoch 74 Evaluation] L1 Loss: 0.052 MSE Loss: 0.008 PSNR Loss: 21.095
+[Epoch 75 Training] Loss: 0.039
+[Epoch 75 Evaluation] L1 Loss: 0.043 MSE Loss: 0.006 PSNR Loss: 22.090
+[Epoch 76 Training] Loss: 0.038
+[Epoch 76 Evaluation] L1 Loss: 0.050 MSE Loss: 0.008 PSNR Loss: 21.186
+[Epoch 77 Training] Loss: 0.038
+[Epoch 77 Evaluation] L1 Loss: 0.057 MSE Loss: 0.010 PSNR Loss: 19.902
+[Epoch 78 Training] Loss: 0.038
+[Epoch 78 Evaluation] L1 Loss: 0.049 MSE Loss: 0.008 PSNR Loss: 20.810
+[Epoch 79 Training] Loss: 0.039
+[Epoch 79 Evaluation] L1 Loss: 0.052 MSE Loss: 0.007 PSNR Loss: 21.699
+[Epoch 80 Training] Loss: 0.036
+[Epoch 80 Evaluation] L1 Loss: 0.059 MSE Loss: 0.008 PSNR Loss: 20.786
+[Epoch 81 Training] Loss: 0.038
+[Epoch 81 Evaluation] L1 Loss: 0.051 MSE Loss: 0.007 PSNR Loss: 21.863
+Plotting loss ...
+[Epoch 82 Training] Loss: 0.038
+[Epoch 82 Evaluation] L1 Loss: 0.048 MSE Loss: 0.007 PSNR Loss: 21.552
+[Epoch 83 Training] Loss: 0.038
+[Epoch 83 Evaluation] L1 Loss: 0.046 MSE Loss: 0.006 PSNR Loss: 22.455
+[Epoch 84 Training] Loss: 0.037
+[Epoch 84 Evaluation] L1 Loss: 0.050 MSE Loss: 0.007 PSNR Loss: 21.538
+[Epoch 85 Training] Loss: 0.038
+[Epoch 85 Evaluation] L1 Loss: 0.054 MSE Loss: 0.008 PSNR Loss: 21.255
+[Epoch 86 Training] Loss: 0.037
+[Epoch 86 Evaluation] L1 Loss: 0.048 MSE Loss: 0.007 PSNR Loss: 22.283
+[Epoch 87 Training] Loss: 0.035
+[Epoch 87 Evaluation] L1 Loss: 0.054 MSE Loss: 0.008 PSNR Loss: 21.010
+[Epoch 88 Training] Loss: 0.039
+[Epoch 88 Evaluation] L1 Loss: 0.055 MSE Loss: 0.008 PSNR Loss: 20.928
+[Epoch 89 Training] Loss: 0.036
+[Epoch 89 Evaluation] L1 Loss: 0.041 MSE Loss: 0.005 PSNR Loss: 23.270
+[Epoch 90 Training] Loss: 0.036
+[Epoch 90 Evaluation] L1 Loss: 0.043 MSE Loss: 0.007 PSNR Loss: 22.770
+[Epoch 91 Training] Loss: 0.035
+[Epoch 91 Evaluation] L1 Loss: 0.056 MSE Loss: 0.007 PSNR Loss: 21.354
+Plotting loss ...
+[Epoch 92 Training] Loss: 0.035
+[Epoch 92 Evaluation] L1 Loss: 0.053 MSE Loss: 0.008 PSNR Loss: 21.161
+[Epoch 93 Training] Loss: 0.036
+[Epoch 93 Evaluation] L1 Loss: 0.047 MSE Loss: 0.007 PSNR Loss: 22.481
+[Epoch 94 Training] Loss: 0.035
+[Epoch 94 Evaluation] L1 Loss: 0.059 MSE Loss: 0.009 PSNR Loss: 20.956
+[Epoch 95 Training] Loss: 0.036
+[Epoch 95 Evaluation] L1 Loss: 0.052 MSE Loss: 0.007 PSNR Loss: 21.729
+[Epoch 96 Training] Loss: 0.036
+[Epoch 96 Evaluation] L1 Loss: 0.055 MSE Loss: 0.009 PSNR Loss: 20.561
+[Epoch 97 Training] Loss: 0.034
+[Epoch 97 Evaluation] L1 Loss: 0.056 MSE Loss: 0.009 PSNR Loss: 21.443
+[Epoch 98 Training] Loss: 0.035
+[Epoch 98 Evaluation] L1 Loss: 0.057 MSE Loss: 0.009 PSNR Loss: 21.882
+[Epoch 99 Training] Loss: 0.037
+[Epoch 99 Evaluation] L1 Loss: 0.050 MSE Loss: 0.007 PSNR Loss: 21.964
+[Epoch 100 Training] Loss: 0.033
+Saving model ...
+[Epoch 100 Evaluation] L1 Loss: 0.050 MSE Loss: 0.006 PSNR Loss: 21.948
+[Epoch 101 Training] Loss: 0.034
+[Epoch 101 Evaluation] L1 Loss: 0.050 MSE Loss: 0.007 PSNR Loss: 21.446
+Plotting loss ...
+[Epoch 102 Training] Loss: 0.033
+[Epoch 102 Evaluation] L1 Loss: 0.038 MSE Loss: 0.005 PSNR Loss: 23.914
+[Epoch 103 Training] Loss: 0.034
+[Epoch 103 Evaluation] L1 Loss: 0.044 MSE Loss: 0.005 PSNR Loss: 22.848
+[Epoch 104 Training] Loss: 0.034
+[Epoch 104 Evaluation] L1 Loss: 0.048 MSE Loss: 0.006 PSNR Loss: 22.622
+[Epoch 105 Training] Loss: 0.034
+[Epoch 105 Evaluation] L1 Loss: 0.058 MSE Loss: 0.008 PSNR Loss: 21.830
+[Epoch 106 Training] Loss: 0.035
+[Epoch 106 Evaluation] L1 Loss: 0.060 MSE Loss: 0.009 PSNR Loss: 20.949
+[Epoch 107 Training] Loss: 0.033
+[Epoch 107 Evaluation] L1 Loss: 0.043 MSE Loss: 0.006 PSNR Loss: 23.238
+[Epoch 108 Training] Loss: 0.034
+[Epoch 108 Evaluation] L1 Loss: 0.057 MSE Loss: 0.007 PSNR Loss: 21.417
+[Epoch 109 Training] Loss: 0.034
+[Epoch 109 Evaluation] L1 Loss: 0.055 MSE Loss: 0.009 PSNR Loss: 21.415
+[Epoch 110 Training] Loss: 0.033
+[Epoch 110 Evaluation] L1 Loss: 0.049 MSE Loss: 0.006 PSNR Loss: 22.419
+[Epoch 111 Training] Loss: 0.030
+[Epoch 111 Evaluation] L1 Loss: 0.046 MSE Loss: 0.005 PSNR Loss: 22.788
+Plotting loss ...
+[Epoch 112 Training] Loss: 0.032
+[Epoch 112 Evaluation] L1 Loss: 0.045 MSE Loss: 0.005 PSNR Loss: 23.140
+[Epoch 113 Training] Loss: 0.032
+[Epoch 113 Evaluation] L1 Loss: 0.034 MSE Loss: 0.003 PSNR Loss: 25.148
+[Epoch 114 Training] Loss: 0.032
+[Epoch 114 Evaluation] L1 Loss: 0.050 MSE Loss: 0.006 PSNR Loss: 22.129
+[Epoch 115 Training] Loss: 0.031
+[Epoch 115 Evaluation] L1 Loss: 0.042 MSE Loss: 0.004 PSNR Loss: 23.882
+[Epoch 116 Training] Loss: 0.031
+[Epoch 116 Evaluation] L1 Loss: 0.048 MSE Loss: 0.005 PSNR Loss: 22.911
+[Epoch 117 Training] Loss: 0.032
+[Epoch 117 Evaluation] L1 Loss: 0.049 MSE Loss: 0.007 PSNR Loss: 22.008
+[Epoch 118 Training] Loss: 0.033
+[Epoch 118 Evaluation] L1 Loss: 0.045 MSE Loss: 0.005 PSNR Loss: 22.806
+[Epoch 119 Training] Loss: 0.031
+[Epoch 119 Evaluation] L1 Loss: 0.050 MSE Loss: 0.007 PSNR Loss: 21.907
+[Epoch 120 Training] Loss: 0.032
+[Epoch 120 Evaluation] L1 Loss: 0.039 MSE Loss: 0.004 PSNR Loss: 23.827
+[Epoch 121 Training] Loss: 0.031
+[Epoch 121 Evaluation] L1 Loss: 0.046 MSE Loss: 0.006 PSNR Loss: 22.513
+Plotting loss ...
+[Epoch 122 Training] Loss: 0.032
+[Epoch 122 Evaluation] L1 Loss: 0.027 MSE Loss: 0.002 PSNR Loss: 26.132
+[Epoch 123 Training] Loss: 0.030
+[Epoch 123 Evaluation] L1 Loss: 0.044 MSE Loss: 0.005 PSNR Loss: 23.762
+[Epoch 124 Training] Loss: 0.032
+[Epoch 124 Evaluation] L1 Loss: 0.044 MSE Loss: 0.005 PSNR Loss: 23.389
+[Epoch 125 Training] Loss: 0.029
+[Epoch 125 Evaluation] L1 Loss: 0.038 MSE Loss: 0.004 PSNR Loss: 23.901
+[Epoch 126 Training] Loss: 0.032
+[Epoch 126 Evaluation] L1 Loss: 0.053 MSE Loss: 0.007 PSNR Loss: 21.499
+[Epoch 127 Training] Loss: 0.030
+[Epoch 127 Evaluation] L1 Loss: 0.048 MSE Loss: 0.007 PSNR Loss: 21.541
+[Epoch 128 Training] Loss: 0.030
+[Epoch 128 Evaluation] L1 Loss: 0.035 MSE Loss: 0.004 PSNR Loss: 24.292
+[Epoch 129 Training] Loss: 0.030
+[Epoch 129 Evaluation] L1 Loss: 0.032 MSE Loss: 0.003 PSNR Loss: 25.294
+[Epoch 130 Training] Loss: 0.030
+[Epoch 130 Evaluation] L1 Loss: 0.058 MSE Loss: 0.007 PSNR Loss: 21.359
+[Epoch 131 Training] Loss: 0.030
+[Epoch 131 Evaluation] L1 Loss: 0.045 MSE Loss: 0.006 PSNR Loss: 22.452
+Plotting loss ...
+[Epoch 132 Training] Loss: 0.029
+[Epoch 132 Evaluation] L1 Loss: 0.035 MSE Loss: 0.004 PSNR Loss: 24.250
+[Epoch 133 Training] Loss: 0.028
+[Epoch 133 Evaluation] L1 Loss: 0.050 MSE Loss: 0.006 PSNR Loss: 22.527
+[Epoch 134 Training] Loss: 0.030
+[Epoch 134 Evaluation] L1 Loss: 0.042 MSE Loss: 0.005 PSNR Loss: 23.273
+[Epoch 135 Training] Loss: 0.030
+[Epoch 135 Evaluation] L1 Loss: 0.038 MSE Loss: 0.003 PSNR Loss: 25.318
+[Epoch 136 Training] Loss: 0.030
+[Epoch 136 Evaluation] L1 Loss: 0.040 MSE Loss: 0.004 PSNR Loss: 23.919
+[Epoch 137 Training] Loss: 0.030
+[Epoch 137 Evaluation] L1 Loss: 0.041 MSE Loss: 0.005 PSNR Loss: 23.433
+[Epoch 138 Training] Loss: 0.030
+[Epoch 138 Evaluation] L1 Loss: 0.045 MSE Loss: 0.005 PSNR Loss: 23.055
+[Epoch 139 Training] Loss: 0.029
+[Epoch 139 Evaluation] L1 Loss: 0.033 MSE Loss: 0.003 PSNR Loss: 26.266
+[Epoch 140 Training] Loss: 0.027
+[Epoch 140 Evaluation] L1 Loss: 0.047 MSE Loss: 0.007 PSNR Loss: 22.885
+[Epoch 141 Training] Loss: 0.031
+[Epoch 141 Evaluation] L1 Loss: 0.047 MSE Loss: 0.005 PSNR Loss: 22.728
+Plotting loss ...
+[Epoch 142 Training] Loss: 0.029
+[Epoch 142 Evaluation] L1 Loss: 0.043 MSE Loss: 0.005 PSNR Loss: 23.226
+[Epoch 143 Training] Loss: 0.028
+[Epoch 143 Evaluation] L1 Loss: 0.057 MSE Loss: 0.008 PSNR Loss: 20.894
+[Epoch 144 Training] Loss: 0.029
+[Epoch 144 Evaluation] L1 Loss: 0.045 MSE Loss: 0.006 PSNR Loss: 22.528
+[Epoch 145 Training] Loss: 0.029
+[Epoch 145 Evaluation] L1 Loss: 0.053 MSE Loss: 0.006 PSNR Loss: 21.956
+[Epoch 146 Training] Loss: 0.030
+[Epoch 146 Evaluation] L1 Loss: 0.049 MSE Loss: 0.006 PSNR Loss: 22.321
+[Epoch 147 Training] Loss: 0.029
+[Epoch 147 Evaluation] L1 Loss: 0.041 MSE Loss: 0.004 PSNR Loss: 23.766
+[Epoch 148 Training] Loss: 0.029
+[Epoch 148 Evaluation] L1 Loss: 0.033 MSE Loss: 0.003 PSNR Loss: 25.713
+[Epoch 149 Training] Loss: 0.029
+[Epoch 149 Evaluation] L1 Loss: 0.036 MSE Loss: 0.004 PSNR Loss: 23.967
+[Epoch 150 Training] Loss: 0.029
+[Epoch 150 Evaluation] L1 Loss: 0.058 MSE Loss: 0.008 PSNR Loss: 21.934
+[Epoch 151 Training] Loss: 0.029
+[Epoch 151 Evaluation] L1 Loss: 0.044 MSE Loss: 0.005 PSNR Loss: 23.142
+Plotting loss ...
+[Epoch 152 Training] Loss: 0.027
+[Epoch 152 Evaluation] L1 Loss: 0.046 MSE Loss: 0.005 PSNR Loss: 22.815
+[Epoch 153 Training] Loss: 0.030
+[Epoch 153 Evaluation] L1 Loss: 0.039 MSE Loss: 0.006 PSNR Loss: 22.406
+[Epoch 154 Training] Loss: 0.028
+[Epoch 154 Evaluation] L1 Loss: 0.033 MSE Loss: 0.003 PSNR Loss: 24.954
+[Epoch 155 Training] Loss: 0.028
+[Epoch 155 Evaluation] L1 Loss: 0.048 MSE Loss: 0.006 PSNR Loss: 22.152
+[Epoch 156 Training] Loss: 0.029
+[Epoch 156 Evaluation] L1 Loss: 0.042 MSE Loss: 0.004 PSNR Loss: 23.899
+[Epoch 157 Training] Loss: 0.028
+[Epoch 157 Evaluation] L1 Loss: 0.050 MSE Loss: 0.006 PSNR Loss: 22.360
+[Epoch 158 Training] Loss: 0.029
+[Epoch 158 Evaluation] L1 Loss: 0.041 MSE Loss: 0.005 PSNR Loss: 23.949
+[Epoch 159 Training] Loss: 0.028
+[Epoch 159 Evaluation] L1 Loss: 0.032 MSE Loss: 0.003 PSNR Loss: 26.505
+[Epoch 160 Training] Loss: 0.029
+[Epoch 160 Evaluation] L1 Loss: 0.039 MSE Loss: 0.003 PSNR Loss: 25.218
+[Epoch 161 Training] Loss: 0.029
+[Epoch 161 Evaluation] L1 Loss: 0.038 MSE Loss: 0.004 PSNR Loss: 24.338
+Plotting loss ...
+[Epoch 162 Training] Loss: 0.029
+[Epoch 162 Evaluation] L1 Loss: 0.041 MSE Loss: 0.004 PSNR Loss: 24.533
+[Epoch 163 Training] Loss: 0.029
+[Epoch 163 Evaluation] L1 Loss: 0.056 MSE Loss: 0.008 PSNR Loss: 21.322
+[Epoch 164 Training] Loss: 0.028
+[Epoch 164 Evaluation] L1 Loss: 0.038 MSE Loss: 0.004 PSNR Loss: 23.702
+[Epoch 165 Training] Loss: 0.027
+[Epoch 165 Evaluation] L1 Loss: 0.038 MSE Loss: 0.003 PSNR Loss: 24.873
+[Epoch 166 Training] Loss: 0.028
+[Epoch 166 Evaluation] L1 Loss: 0.038 MSE Loss: 0.004 PSNR Loss: 24.570
+[Epoch 167 Training] Loss: 0.028
+[Epoch 167 Evaluation] L1 Loss: 0.059 MSE Loss: 0.008 PSNR Loss: 21.861
+[Epoch 168 Training] Loss: 0.027
+[Epoch 168 Evaluation] L1 Loss: 0.042 MSE Loss: 0.005 PSNR Loss: 23.489
+[Epoch 169 Training] Loss: 0.028
+[Epoch 169 Evaluation] L1 Loss: 0.031 MSE Loss: 0.003 PSNR Loss: 26.239
+[Epoch 170 Training] Loss: 0.028
+[Epoch 170 Evaluation] L1 Loss: 0.039 MSE Loss: 0.005 PSNR Loss: 23.366
+[Epoch 171 Training] Loss: 0.028
+[Epoch 171 Evaluation] L1 Loss: 0.029 MSE Loss: 0.002 PSNR Loss: 26.213
+Plotting loss ...
+[Epoch 172 Training] Loss: 0.028
+[Epoch 172 Evaluation] L1 Loss: 0.037 MSE Loss: 0.004 PSNR Loss: 23.921
+[Epoch 173 Training] Loss: 0.028
+[Epoch 173 Evaluation] L1 Loss: 0.025 MSE Loss: 0.002 PSNR Loss: 26.570
+[Epoch 174 Training] Loss: 0.029
+[Epoch 174 Evaluation] L1 Loss: 0.043 MSE Loss: 0.005 PSNR Loss: 23.117
+[Epoch 175 Training] Loss: 0.028
+[Epoch 175 Evaluation] L1 Loss: 0.048 MSE Loss: 0.006 PSNR Loss: 22.413
+[Epoch 176 Training] Loss: 0.028
+[Epoch 176 Evaluation] L1 Loss: 0.040 MSE Loss: 0.005 PSNR Loss: 24.765
+[Epoch 177 Training] Loss: 0.027
+[Epoch 177 Evaluation] L1 Loss: 0.036 MSE Loss: 0.004 PSNR Loss: 24.171
+[Epoch 178 Training] Loss: 0.028
+[Epoch 178 Evaluation] L1 Loss: 0.029 MSE Loss: 0.002 PSNR Loss: 26.244
+[Epoch 179 Training] Loss: 0.028
+[Epoch 179 Evaluation] L1 Loss: 0.050 MSE Loss: 0.007 PSNR Loss: 21.466
+[Epoch 180 Training] Loss: 0.028
+[Epoch 180 Evaluation] L1 Loss: 0.052 MSE Loss: 0.006 PSNR Loss: 22.186
+[Epoch 181 Training] Loss: 0.028
+[Epoch 181 Evaluation] L1 Loss: 0.040 MSE Loss: 0.003 PSNR Loss: 24.586
+Plotting loss ...
+[Epoch 182 Training] Loss: 0.027
+[Epoch 182 Evaluation] L1 Loss: 0.035 MSE Loss: 0.003 PSNR Loss: 25.098
+[Epoch 183 Training] Loss: 0.028
+[Epoch 183 Evaluation] L1 Loss: 0.036 MSE Loss: 0.003 PSNR Loss: 24.812
+[Epoch 184 Training] Loss: 0.027
+[Epoch 184 Evaluation] L1 Loss: 0.041 MSE Loss: 0.005 PSNR Loss: 23.446
+[Epoch 185 Training] Loss: 0.027
+[Epoch 185 Evaluation] L1 Loss: 0.037 MSE Loss: 0.004 PSNR Loss: 23.982
+[Epoch 186 Training] Loss: 0.027
+[Epoch 186 Evaluation] L1 Loss: 0.042 MSE Loss: 0.006 PSNR Loss: 22.285
+[Epoch 187 Training] Loss: 0.028
+[Epoch 187 Evaluation] L1 Loss: 0.040 MSE Loss: 0.005 PSNR Loss: 23.043
+[Epoch 188 Training] Loss: 0.030
+[Epoch 188 Evaluation] L1 Loss: 0.043 MSE Loss: 0.005 PSNR Loss: 22.845
+[Epoch 189 Training] Loss: 0.027
+[Epoch 189 Evaluation] L1 Loss: 0.035 MSE Loss: 0.004 PSNR Loss: 24.465
+[Epoch 190 Training] Loss: 0.026
+[Epoch 190 Evaluation] L1 Loss: 0.046 MSE Loss: 0.005 PSNR Loss: 22.849
+[Epoch 191 Training] Loss: 0.027
+[Epoch 191 Evaluation] L1 Loss: 0.041 MSE Loss: 0.004 PSNR Loss: 23.880
+Plotting loss ...
+[Epoch 192 Training] Loss: 0.030
+[Epoch 192 Evaluation] L1 Loss: 0.044 MSE Loss: 0.005 PSNR Loss: 23.310
+[Epoch 193 Training] Loss: 0.025
+[Epoch 193 Evaluation] L1 Loss: 0.041 MSE Loss: 0.004 PSNR Loss: 24.056
+[Epoch 194 Training] Loss: 0.029
+[Epoch 194 Evaluation] L1 Loss: 0.040 MSE Loss: 0.004 PSNR Loss: 23.940
+[Epoch 195 Training] Loss: 0.027
+[Epoch 195 Evaluation] L1 Loss: 0.032 MSE Loss: 0.003 PSNR Loss: 26.223
+[Epoch 196 Training] Loss: 0.027
+[Epoch 196 Evaluation] L1 Loss: 0.035 MSE Loss: 0.004 PSNR Loss: 24.999
+[Epoch 197 Training] Loss: 0.028
+[Epoch 197 Evaluation] L1 Loss: 0.056 MSE Loss: 0.007 PSNR Loss: 21.368
+[Epoch 198 Training] Loss: 0.028
+[Epoch 198 Evaluation] L1 Loss: 0.035 MSE Loss: 0.004 PSNR Loss: 24.536
+[Epoch 199 Training] Loss: 0.029
+[Epoch 199 Evaluation] L1 Loss: 0.039 MSE Loss: 0.004 PSNR Loss: 23.859
+[Epoch 200 Training] Loss: 0.028
+Saving model ...
+[Epoch 200 Evaluation] L1 Loss: 0.040 MSE Loss: 0.004 PSNR Loss: 24.268
+[    1] mse_loss: 0.001 psnr_loss: 28.901 
+[    2] mse_loss: 0.004 psnr_loss: 24.546 
+[    3] mse_loss: 0.002 psnr_loss: 26.537 
+[    4] mse_loss: 0.003 psnr_loss: 25.642 
+[    5] mse_loss: 0.014 psnr_loss: 18.435 
+[    6] mse_loss: 0.000 psnr_loss: 37.954 
+[    7] mse_loss: 0.012 psnr_loss: 19.266 
+[    8] mse_loss: 0.009 psnr_loss: 20.328 
+[    9] mse_loss: 0.015 psnr_loss: 18.200 
+[   10] mse_loss: 0.004 psnr_loss: 23.740 
+Final Loss: 
+MSE: tensor(0.0065)
+PSNR: tensor(24.3547)
